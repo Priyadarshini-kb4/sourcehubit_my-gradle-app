@@ -17,4 +17,5 @@ RUN chmod +x gradlew
 RUN ./gradlew build --no-daemon
 
 # Set the default command to run your app
-CMD ["java", "-jar", "app/build/libs/my-gradle-app-0.1.0.jar"]
+CMD ["java", "-jar", "build/libs/my-gradle-app-1.0-SNAPSHOT.jar"]
+
